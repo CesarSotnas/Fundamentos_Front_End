@@ -1,0 +1,5 @@
+.box-model {
+    color: blue;
+    border-top: 2px solid red;
+    border-left: 3px solid blue;
+}
