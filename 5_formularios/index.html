@@ -15,12 +15,15 @@
            <label>Nome:</label>
            <input type="text" />
         </div>
-    <!-- 3 -- atributo name -->
+    
+        <!-- 3 -- atributo name -->
     <div>
+    
     <!-- 4 -- atributo label -->
         <label for="age">Idade:</label>
         <input type="text" name="age">
     </div>
+    
     <!-- 6 -- select -->
     <div>
         <label for="job">Selecione sua profissão:</label>
@@ -31,6 +34,7 @@
             <option value="devops">DevOps</option>
         </select>
     </div>
+    
     <!-- 7 -- selected -->
     <div>
         <label for="contract">Você leu os termos do contrato?</label>
@@ -39,6 +43,7 @@
             <option value="não" selected>Não</option>
         </select>
     </div>
+    
     <!-- 8 -- selected -->
     <div>
         <label for="items">Selecione os itens desejados:</label>
@@ -49,11 +54,13 @@
             <option value="milho">Milho</option>
         </select>
     </div>
+    
     <!-- 9 -- textarea -->
     <div>
         <label for="comment">Escreva abaixo o que você achou do posto:</label>
         <textarea name="comment"></textarea>
     </div>
+    
     <!-- 10 -- fieldset e legend -->
     <fieldset>
         <legend>Preencha as suas informações:</legend>
@@ -62,6 +69,7 @@
         <label for="lastname">Sobrenome:</label>
         <input type="text" name="lastname">
     </fieldset>
+    
     <!-- 11 -- datalist -->
     <div>
         <label for="flavor">Escolha o sabor:</label>
@@ -74,12 +82,14 @@
             <option value="Abacaxi"></option>
         </datalist>
     </div>
+    
     <!-- 12 -- senha -->
     <div>
         <label for="password">Digite a sua senha:</label>
         <input type="password" name="password">
     </div>
-    <!-- 14 -- radio button -->
+    
+    <!-- 13 -- radio button -->
     <div>
         <label for="car-model">Escolha o modelo do seu carro:</label>
         <div class="radio">
@@ -95,7 +105,8 @@
             <label for="renault">Renault</label>
         </div>
     </div>
-    <!-- 15 -- checkbox -->
+    
+    <!-- 14 -- checkbox -->
     <div>
         <label for="optionals">Opicionais do carro:</label>
         <div class="radio">
@@ -111,19 +122,59 @@
             <label for="hybrid">Híbrido</label>
         </div>
     </div>
-    <!-- 16 -- datas -->
+    
+    <!-- 15 -- datas -->
     <div>
         <label for="birthday">Data de nascimento:</label>
         <input type="date" name="birthday">
     </div>    
-    <!-- 17 -- arquivos -->
+   
+    <!-- 16 -- arquivos -->
     <div>
         <label for="image">Insira a sua imagem:</label>
         <input type="file" name="image">
     </div>
-    <!-- 13 -- resetar form -->
+  
+    <!-- 17 -- numeros -->
+    <div>
+        <label for="salary">Quanto você ganha no seu emprego atual?</label>
+        <input type="number" name="salary">
+    </div>
+  
+    <!-- 18 -- e-mail -->
+    <div>
+        <label for="email">Qual o seu e-mail?</label>
+        <input type="email">
+    </div>
+   
+    <!-- 19 -- value -->
+    <div>
+        <label for="value">Digite algum valor:</label>
+        <input type="text" value="O meu valor é este">
+    </div>
+  
+    <!-- 20 -- disabled -->
+    <div>
+        <p>Tente mudar o valor</p>
+        <input type="text" value="não alterável" disabled>
+    </div>
+   
+    <!-- 21 -- palceholder -->
+    <div>
+        <label for="current-job">Digite sua profissão:</label>
+        <input type="text" name="current-job" placeholder="No que você trabalha?">
+    </div>
+
+    <!-- 22 -- required -->
+    <div>
+        <label for="birth-year">Digite o seu ano de nascimento:</label>
+        <input type="text" placeholder="ano em que você nasceu" required>
+    </div>
+
+    <!-- 23 -- resetar form -->
     <input type="reset" value="Limpar">
-    <!-- 5 -- envio de form -->
+   
+    <!-- 24 -- envio de form -->
     <input type="submit" value="Enviar" />
     </form>
 </body>
